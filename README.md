@@ -1,55 +1,87 @@
-<<<<<<< HEAD
 # Ejemplo_JavaScript
- Proyecto de ejemplo usando React Native y Expo: To-Do List con funcionalidades básicas.
-=======
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📋 Descripción
+Este es un proyecto desarrollado con **React Native** y **Expo** que implementa una simple aplicación de **To-Do List**. Permite agregar tareas, marcarlas como completadas y eliminarlas. Es un ejemplo ideal para aprender conceptos básicos de desarrollo móvil.
 
-## Get started
+## 🚀 Tecnologías utilizadas
 
-1. Install dependencies
+- **JavaScript**: JavaScript es uno de los lenguajes de programación más populares del mundo. Es conocido por su versatilidad, ya que puede ser utilizado tanto en el front-end (navegadores) como en el back-end (con Node.js). Es ideal para crear interfaces interactivas, aplicaciones web dinámicas y proyectos móviles.
+- **React Native**: Framework para construir aplicaciones móviles multiplataforma utilizando JavaScript.
+- **Expo**: Plataforma para simplificar el desarrollo y despliegue de aplicaciones móviles.
 
+## 🎨 Características
+
+- Añadir nuevas tareas con un título.
+- Marcar tareas como completadas (tachado visual).
+- Eliminar tareas completadas.
+
+## 🛠️ Instalación y ejecución
+
+### Prerrequisitos
+Asegúrate de tener instalados:
+- Node.js: [Descargar aquí](https://nodejs.org/)
+- Expo CLI: Instálalo con el siguiente comando:
+  ```bash
+  npm install -g expo-cli
+  ```
+
+### Instalación
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/TuUsuario/Ejemplo_JavaScript.git
+   ```
+2. Navega a la carpeta del proyecto:
+   ```bash
+   cd Ejemplo_JavaScript
+   ```
+3. Instala las dependencias:
    ```bash
    npm install
    ```
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### Ejecución
+Inicia la aplicación en modo desarrollo con Expo:
 ```bash
-npm run reset-project
+expo start
+```
+Escanea el código QR generado con la aplicación de Expo Go en tu dispositivo móvil o emulador.
+
+## 📂 Estructura del proyecto
+```
+Ejemplo_JavaScript/
+├── assets/             # Recursos estáticos como imágenes
+├── components/         # Componentes reutilizables
+├── screens/            # Pantallas principales de la app
+├── App.js              # Punto de entrada principal
+├── package.json        # Dependencias y scripts
+└── README.md           # Documentación del proyecto
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 💻 Capturas de pantalla
 
-## Learn more
+| Lista de tareas      | Tarea completada      |
+|----------------------|-----------------------|
+| ![Lista](./screenshots/lista.png) | ![Completada](./screenshots/completada.png) |
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🤝 Contribuciones
+Las contribuciones son bienvenidas. Por favor, sigue los siguientes pasos:
+1. Haz un fork del proyecto.
+2. Crea una nueva rama:
+   ```bash
+   git checkout -b feature/NuevaFuncionalidad
+   ```
+3. Haz tus cambios y crea un commit:
+   ```bash
+   git commit -m "Descripción de los cambios"
+   ```
+4. Sube los cambios:
+   ```bash
+   git push origin feature/NuevaFuncionalidad
+   ```
+5. Abre un Pull Request.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📜 Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
->>>>>>> 147ab43 (Primera versión del proyecto)
+## 🧑‍💻 Autor
+Desarrollado por Jefferson Solano. Si tienes preguntas, no dudes en contactarme.
